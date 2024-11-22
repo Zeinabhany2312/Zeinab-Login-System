@@ -1,0 +1,126 @@
+/* Global Styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/69a79885c69bfe260433a2308954647c.jpeg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+}
+
+.home {
+  height: 75vh;
+  background-image: url('../images/69a79885c69bfe260433a2308954647c.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Input Styling */
+input {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+input::placeholder {
+  color: rgb(127, 26, 26) !important;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+
+/* Headings */
+h1 {
+  color: #ffdb58;
+  font-size: 40px;
+}
+
+/* Form Styling */
+.form {
+  background-color: transparent; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+/* Links */
+a.move {
+  text-decoration: none;
+}
+
+a.move:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  background-color: transparent;
+  border: solid #870903; /* Thicker border with color */
+  color: white;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem #870903;
+}
+
+.btn:hover {
+  color: white;
+  border: 5px solid #870903;
+  background-color: #870903;
+}
+
+.btn-home {
+  color: white;
+  border-color: olive;
+}
+
+.btn-home:hover {
+  background-color: olive;
+  border: 5px solid olive;
+}
+
+/* Icon Styling */
+.input-group-text {
+  background-color: transparent; 
+  border: none; 
+  padding: 0.5rem; 
+}
+
+.input-group-text i {
+  color: #870903; 
+  font-size: 1.2rem; 
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+
+.input-group-text:hover i {
+  color: #ffdb58; 
+}
+
+.input-group-text:active i {
+  color: olive; 
+  transform: scale(1.1); 
+  transition: transform 0.1s ease; 
+}
+
+.input-group-text:focus i {
+  outline: none;
+  color: #ffdb58; 
+}
+
+/* Responsive Design */
+@media all and (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
